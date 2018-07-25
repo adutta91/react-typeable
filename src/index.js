@@ -36,7 +36,9 @@ export default class Typeable extends Component {
 
         this.timeout = setTimeout(() => {
             this.setState({ pos });
-
+            
+            if (this.props.onChange) this.props.onChange(this.props.text.slice(0, pos));
+            
             if (this.state.pos < this.props.text.length) {
                 this.typingTimeout(pos + 1, delay, variance);
             } else {
@@ -70,10 +72,11 @@ export default class Typeable extends Component {
 };
 
 Typeable.propTypes = {
-    text: PropTypes.string,
-    speed: PropTypes.number,
-    variance: PropTypes.number,
+    text: PropTypes.string.isRequired,
+    speed: PropTypes.number.isRequired,
+    variance: PropTypes.number.isRequired,
     done: PropTypes.func,
     transformText: PropTypes.func,
+    onChange: PropTypes.func,
     showCursor: PropTypes.bool
 };
