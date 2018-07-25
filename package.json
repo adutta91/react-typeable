@@ -1,0 +1,17 @@
+{
+  "name": "react-typeable",
+  "version": "1.0.0",
+  "description": "React Component to animate/simulate typing",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react",
+    "typing",
+    "typist",
+    "component"
+  ],
+  "author": "Arjun Dutta",
+  "license": "ISC"
+}
