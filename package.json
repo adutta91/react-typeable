@@ -1,6 +1,6 @@
 {
   "name": "react-typeable",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "React Component to animate/simulate typing",
   "main": "index.js",
   "scripts": {
@@ -19,7 +19,8 @@
   "license": "ISC",
   "peerDependencies": {
     "react": "^16.4.1",
-    "react-dom": "^16.4.1"
+    "react-dom": "^16.4.1",
+    "prop-types": "^15.6.2"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
@@ -29,6 +30,7 @@
     "babel-preset-react": "^6.24.1",
     "css-loader": "^1.0.0",
     "html-webpack-plugin": "^3.2.0",
+    "prop-types": "^15.6.2",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
     "style-loader": "^0.21.0",
