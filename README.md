@@ -1,5 +1,5 @@
 # React Typeable
-A super lightweight component to emulate typing. Versatile and customizable with options to transform the text as well as reactive due to onChange and done callbacks.
+A super lightweight component to emulate typing. Versatile and customizable with options to transform the text as well as reactive due to `onChange` and `done` callbacks.
 Mimics more natural typing style by varying the delay between keystrokes. Implementor has direct control over both the typing speed as well as the variance.
 
 See it in action [here](http://www.arjundutta.codes)
